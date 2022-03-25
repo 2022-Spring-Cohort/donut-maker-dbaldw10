@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donut Clicker</title>
-  </head>
-  <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maker Of DoNuts</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="body">
+  <header>
+    <div class="navbar">
+      <a class="otherLinks" href="/">DOJO DONUT</a>
+      <div class="dropdown">
+        <a class=dropbtn>Master Donut Dojo</a>
+        <div id="myDropdown" class="dropdown-content">
+          <p>Bruce Lee ate his creme stick right over there, in the field alone for 3 days with nothing but a smile.
+            This is the way of the DoNut, and we shall keep it that way for years to come.
+          </p>
+          
+        </div>
+      
+      <div class="dropdown2">
+        
+      
+        </div>
+      </div>
+    </div>
+  </header>
+  <canvas id="canvas" width="100" height="100"></canvas>
+  <div class="container">
+    
+    <section class="click__multiplier">
+      <button class="multi__button" type="button" name="multiButton">XxxBuy MultiplierxxX</button>
+      <h2 class="multi__count">Multi's: </h2>
+      <p class="multi__cost">Multiplier Points needed to Unlock
+        : </p>
+    </section>
+    
+    <section class="auto__clicker">
+      <button class="auto__button" type="button" name="autoButton">Buy Auto-Clicker(theyclickforyou)</button>
+      <h2 class="auto__count">Auto-Clickers: </h2>
+      <p class="auto__cost">Auto-Clicker Cost: </p>
+    </section>
+    <section class="donut__click">
+      <h3 class="click__worth">Donuts Per Click</h3>
+      <img src="donut.png" class="donut__button" name="donutButton"></img>
+      <h1 class="donut__count">Donuts: </h1>
+    </section>
+    
+  </div>
+  <section class="reset">
+    <button class="reset__button" type="button" name="resetButton">BACK TO ZERO</button>
+  </section>
+  <script src="./js/Particles.js"></script>
+  <script src="./js/DonutMaker-App.js" type="module"></script>
+  
+</body>
+
 </html>

@@ -1,0 +1,144 @@
+*{
+  font-size: large;
+}
+html{
+  background-image: linear-gradient(rgb(168, 116, 211), rgb(255, 47, 203));
+}
+.navbar {
+  position: fixed;
+  bottom: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  background-color: rgb(124, 1, 1);
+}
+.container {
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+.auto__clicker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 20%;
+  margin-right: 10%;
+}
+.donut__click {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.click__multiplier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 20%;
+  margin-left: 10%;
+}
+.donut__button {
+  width: 340px;
+  max-height: 100%;
+  cursor: pointer;
+}
+.donut__count {
+  font-size: 3em;
+}
+.auto__button {
+  padding: 1em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.multi__button {
+  padding: 1em;
+  
+}
+.reset__button {
+  border-radius: 3px;
+  padding: 1em;
+  
+}
+.dropbtn, .dropbtn2, .otherLinks {
+  background-color: rgb(104, 8, 8);
+  color: white;
+  padding: 16px;
+  margin: 0px 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropbtn:hover, .dropbtn2:hover,
+ .dropbtn:focus, 
+ .dropbtn2:focus {
+  background-color: greenyellow;
+  color: black;
+}
+.otherLinks:hover, .otherLinks:focus {
+  background-color: greenyellow;
+  color:black;
+}
+.dropdown, 
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F1F1F1;
+  margin-top: 16px;
+  min-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #F1F1F1;
+  margin-top: 16px;
+  min-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content p,
+ .dropdown-content2 p {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover, 
+.dropdown-content2 a:hover {
+  background-color: rgb(114, 21, 21)
+}
+.show {display:block;}
+#canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  pointer-events: none;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+.body {
+  width: 100%;
+  max-height: 90%;
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+}
